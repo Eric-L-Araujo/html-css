@@ -3,43 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
+    <h1>Trabalhando com listas</h1>
 
-    <h2>Códigos de fonte</h2>
-    <!-- Para inserir códigos de fonte monoespaçada, iguais de programação, utilizar a tag abaixo -->
-    <code>document.getElementById("CEP")</code>
+    <h2>Listas Ordenadas</h2>
+    <!-- li = List Item -->
+    <!-- Ordered list -->
+    <!-- A partir do HTML5, o fechamento da tag <li> é opcional -->
+    <!-- Parâmetro do ol são type e start -->
+    <!-- Os valores de type são: 1, A, a, I e i -->
+    <!-- Os valores de start são numerados e significa a posição da lista que será exibida -->
 
-    <!-- Para exibir da forma como é escrito, utiliza-se a tag <pre> -->
-    <!-- Para tirar a indentação, selecionar o código e usar o SHIFT + TAB -->
-    <pre>
-        <code>
-carro = float(input("Informe qual é o modelo do seu carro?"))
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o Kayk</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o Trabalhando</li>
+        <li>Voltar para a casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
 
-if carro == chevrolet:
-    print('Seu carro é legal')
-else:
-    print('Seu carro não é legal')
-    print('Fim do programa')
-        </code>
-    </pre>
-
-    <h2>Citações</h2>
-    <!-- Para usar uma sitação simples, utilizar as tags <q></q> e elas já põe aspas automaticamente -->
-     <h3>Citações simples</h3>
-    <p><q>Me deixe ficar aqui, entre uma respiração e outra, onde teu coração inflama, mas, esperto, sabe como voltar ao corpo sem reclamar.</q> </p>
-
-    <h3>Citações completas</h3>
-    <blockquote cite="https://ler.amazon.com.br/kp/embed?preview=inline&linkCode=kpd&ref_=k4w_oembed_XCAWnIzsKRihq4&asin=B0BJ7T96GK&from=Bookcard&tag=obrmede-20&amazonDeviceType=A2CLFWBIMVSE9N&reshareId=MSAG4RH9QGAV72NJDGTJ&reshareChannel=clipboard">
-        Me deixe ficar aqui, entre uma respiração e outra, onde teu coração inflama, mas, esperto, sabe como voltar ao corpo sem reclamar.
-    </blockquote>
-
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr> HEHEHEH</p>
-
-    <h2>Texto Invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!-- unordered list -->
+    <!-- Parâmetro do ol são type  -->
+     <!-- O type de ul possui os seguintes valores: disc, circle, square -->
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square">
+        <li>Chocolate em pó</li>
+        <li>Chocolate em barra</li>
+        <li>Chocolate de pistache</li>
+        <li>Chocolate branco</li>
+        <li>Chocolate meio amargo</li>
+        <li>Chocolate em creme</li>
+    </ul>
 </body>
 </html>
