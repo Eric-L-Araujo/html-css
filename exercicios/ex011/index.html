@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Utilizando a tag picture</p>
+    <picture>
+        <source media="(max-width: 730px)" srcset="imagens/cat_cute-300x300.jpg" type="image/jpg">
+        <source media="(max-width: 1260px)" srcset="imagens/cat_cute-700x700.jpg" type="image/jpg">
+        <!-- Por padrão, a foto ¨gatinho 1000x1000 será carregada -->
+        <img src="imagens/cat_cute-1000x700.jpg" alt="">
+    </picture>
+
+    <!-- Metadata serve para carregar os dados do audio -->
+    <h2>Reproduzindop Audios em HTML5</h2>
+    <audio preload="metadata" controls loop>
+        <source src="midia/and-so-it-begin.mp3" type="audio/mpeg">
+        <source src="midia/and-so-it-begin.ogg" type="audio/ogg">
+        <!-- Arquivos wav são grandes e pesados -->
+        <source src="midia/and-so-it-begin.wav" type="audio/wav">
+        <p>Seu navegador não suporta reprodução de audio <a href="midia/and-so-it-begin.mp3" download="midia/and-so-it-begin.mp3" type="audio/mpeg">clique aqui</a> para baixá-lo</p>
+    </audio>
+
+    <!-- 
+    Créditos Song: And So It Begins
+    Composer: Artificial.Music
+    Website: https://www.youtube.com/channel/UCC49uNuUk7pY77NoVMlNYDA
+    License: Free To Use YouTube license youtube-free
+    Music powered by BreakingCopyright: https://breakingcopyright.com 
+    -->
+    
+</body>
+</html>
