@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+body {
+    font-family: 'Lacquer';
+    background-color: rgb(107, 50, 24);
+    color: rgb(41, 12, 3);
+}
+
+img {
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+     gap: 10px;
+}
+
+#container #thumb-first-column {
+    display: grid;
+    row-gap: 10px;
+}
+
+#container #thumb-second-column {
+    display: grid;
+    row-gap: 10px;
+   
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+a .material-symbols-outlined {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}

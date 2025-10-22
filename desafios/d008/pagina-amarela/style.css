@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: 'Nunito';
+    background-color: yellow;
+}
+
+h1, p, a{
+    color: rgb(189, 156, 13);
+}
+
+ul li {
+    color: rgb(189, 156, 13);
+}
