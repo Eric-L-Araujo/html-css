@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            gap: 10px;
+        }
+
+        .quadrado {
+            display: inline-block;
+            background-color: rgb(171, 35, 175);
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            border: 2px solid rgb(86, 21, 139);
+            margin: 10px
+        }
+
+        div #q1 {
+            background-color: aqua;
+        }
+
+        div #q2 {
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+
+        div #q3 {
+            background-image: url('imagens/pattern003.png');
+        }
+    </style>
+    <title>Quadradinhos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+    </div>
+</body>
+</html>
