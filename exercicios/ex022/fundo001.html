@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 90vh;
+            background-color: bisque;
+        }
+        .container {
+            gap: 10px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quadrado {
+            display: flex;
+            background-color: rgb(171, 35, 175);
+            width: 300px;
+            height: 434px;
+            border-radius: 20px;
+            border: 1px solid rgb(86, 21, 139);
+            text-align: center;
+            margin: 50px;
+        }
+
+        div #q1 {
+            background-color: aqua;
+        }
+
+        div #q2 {
+            background-image: linear-gradient(to bottom, yellow, rgb(255, 72, 0));
+        }
+
+        div #q3 {
+            background-image: url('imagens/pattern001.png');
+        }
+
+        div #q4 {
+            background-image: url('imagens/pattern002.png');
+        }
+        
+        div #q5 {
+            background-image: url('imagens/pattern003.png');
+        }
+        div #q6 {
+            background-image: url('imagens/pattern004.png');
+        }
+        div #q7 {
+            background-image: url('imagens/wallpaper001.jpg');
+        }
+        div #q8 {
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+        div #q9 {
+            background-image: url('imagens/wallpaper003.jpg');
+        }
+        
+
+
+    </style>
+    <title>Quadradinhos</title>
+</head>
+<body>
+    <div class="container">
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+        <div class="quadrado" id="q4"></div>
+        <div class="quadrado" id="q5"></div>
+        <div class="quadrado" id="q6"></div>
+        <div class="quadrado" id="q7"></div>
+        <div class="quadrado" id="q8"></div>
+        <div class="quadrado" id="q9"></div>
+    </div>
+</body>
+</html>
