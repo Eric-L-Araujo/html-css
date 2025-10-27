@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(247, 215, 215);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(66, 2, 2);
+    background-color: brown;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: rgb(226, 105, 105);
+}
+
+p {
+    color: rgb(66, 2, 2);
+    text-align: justify;
+    padding: 10px;
+}
+
+a {
+    color: maroon;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid ;
+
+}
