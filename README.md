@@ -6,7 +6,7 @@
 
 ---
 
-<div align="center">
+
 
 ## Exercícios
 - Acesse o <a href="https://eric-l-araujo.github.io/html-css/exercicios/ex001/" target="_blank">Exercício 1</a> aqui
@@ -65,7 +65,7 @@
   
 - Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d012/" target="_blank">Desafio 12</a> aqui
 
-</div>
+
 
 ---
 
