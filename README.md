@@ -2,7 +2,7 @@
 repositório para hospedar os desafios e exercícios do curso de HTML5 e CSS3, do professor Gustavo Guanabara
 
 ## Exercícios
-- Acesse o <a href="https://eric-l-araujo.github.io/html-css/exercicios/ex001/">Exercício 1</a> aqui
+- Acesse o <a href="https://eric-l-araujo.github.io/html-css/exercicios/ex001/" target="_blank">Exercício 1</a> aqui
 
 - Acesse o <a href="https://eric-l-araujo.github.io/html-css/exercicios/ex002/">Exercício 2</a> aqui
 
