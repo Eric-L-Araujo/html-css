@@ -41,17 +41,9 @@ body {
    font-size: 3vw;
 }
 
-
-h2 {
-   padding: 20px;
-   text-align: start;
-   
-}
-
 #primeira-estrofe {
   padding: 20px;
    background-color: rgb(255, 255, 255);
-   
 }
 
 #primeira-img-parallax {
@@ -60,8 +52,7 @@ h2 {
    background-position: center center;
    background-attachment: fixed;
    padding: 30px 0px;
-   box-shadow: inset -1px -1px 13px 2px #444444;
-   
+   box-shadow: inset -1px -1px 13px 2px #444444; 
 }
 
 #segunda-estrofe {
@@ -69,9 +60,7 @@ h2 {
    margin-left: 20px;
    background-color: #00000042;
    color: #fff;
-   padding: 1px;
- 
-   
+   padding: 1px; 
 }
 
 #terceira-estrofe {
@@ -139,7 +128,6 @@ h2 {
    color: #fff;
    font-size: 18px;
    text-align: center;
- 
 }
 
 .links {
