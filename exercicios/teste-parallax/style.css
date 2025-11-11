@@ -1,0 +1,59 @@
+* {
+   font-size: 40px;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   background-image: url('anime-style-house-architecture.jpg');
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+}
+
+h1 {
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   
+}
+
+h2 {
+   padding: 20px;
+   text-align: start;
+   
+}
+
+#primeira-estrofe {
+   padding: 20px;
+   margin-bottom: 50px;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+#segunda-estrofe {
+   color: #fff;
+   padding: 20px;
+   margin-bottom: 50px;
+   background-color: none;
+}
+
+#terceira-estrofe {
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+#quarta-estrofe {
+   background-image: url('illustration-anime-city.jpg');
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+   color: #fff;
+}
+
