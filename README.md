@@ -34,3 +34,6 @@ repositório para hospedar os desafios e exercícios do curso de HTML5 e CSS3, d
 
 
 ## Desafios
+- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d001/" target="_blank">Desafio 1</a> aqui
+
+
