@@ -52,10 +52,10 @@ repositório para hospedar os desafios e exercícios do curso de HTML5 e CSS3, d
   
 - Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d009/" target="_blank">Desafio 9</a> aqui
   
-- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d0010/" target="_blank">Desafio 10</a> aqui
+- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d010/" target="_blank">Desafio 10</a> aqui
   
-- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d0011/" target="_blank">Desafio 11</a> aqui
+- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d011/" target="_blank">Desafio 11</a> aqui
   
-- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d0012/" target="_blank">Desafio 12</a> aqui
+- Acesse o <a href="https://eric-l-araujo.github.io/html-css/desafios/d012/" target="_blank">Desafio 12</a> aqui
   
 
