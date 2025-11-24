@@ -9,11 +9,24 @@
             padding: 10px;
             text-align: center;
             border-collapse: collapse;
+            position: relative;
         }
+
 
         thead {
             background-color: rgb(175, 175, 175);
             border: 1px solid gray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray ;
+        }
+
+        /* Aplica o estilo de 2 em 2 linhas, podendo aumentar o intervalo alterando a numeração (2n, 5n, etc) */
+        tbody tr:nth-child(2n){
+            background-color: lightgrey;
         }
 
         td, th {
@@ -62,11 +75,23 @@
                 <td>Rio de Janeiro</td>
                 <td>17 223 547</td>
             </tr>
+            <tr>
+                <td>4</td>
+                <td>Santa Catarina</td>
+                <td>10 223 547</td>
+            </tr>
         </tbody>
         <tfoot>
             <th scope="row">Total de Habitantes</th>
-            <td>00000000</td>
+            <td colspan="2">00000000</td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis minus blanditiis sapiente itaque iusto mollitia eligendi vel. Porro nulla sit est provident temporibus. Dolores ad doloribus, ea tenetur in accusantium corrupti dolor hic atque ipsum tempora, dolorum aperiam optio est quidem molestias, corporis nam suscipit quibusdam minus sed vel? Sunt placeat amet vel praesentium odio eius ipsa reprehenderit, laboriosam laudantium reiciendis voluptatem? Corrupti expedita minus quam aperiam nobis sequi, suscipit ut facere. Iusto illo doloribus, nostrum cumque eveniet dolor voluptatum necessitatibus aspernatur! Ea ipsum consequatur exercitationem placeat a facere quidem quibusdam, aliquam, nobis eligendi cumque, sequi nisi est quae? Vel!</p>
+
 </body>
 </html>
